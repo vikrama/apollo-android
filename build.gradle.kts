@@ -13,6 +13,7 @@ buildscript {
 
 plugins {
   id("com.github.ben-manes.versions")
+  id ("com.autonomousapps.dependency-analysis")
 }
 ApiCompatibility.configure(rootProject)
 

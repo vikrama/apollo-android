@@ -1,5 +1,4 @@
 plugins {
-  id("java")
   kotlin("jvm")
   id("java-gradle-plugin")
   id("com.gradle.plugin-publish")

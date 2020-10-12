@@ -5,8 +5,10 @@ plugins {
 dependencies {
   api(project(":apollo-api"))
   api(project(":apollo-normalized-cache"))
+  api(project(":apollo-normalized-cache-api"))
   api(project(":apollo-http-cache-api"))
   api(groovy.util.Eval.x(project, "x.dep.okHttp.okHttp"))
+  api(groovy.util.Eval.x(project, "x.dep.okio"))
 
   testImplementation(groovy.util.Eval.x(project, "x.dep.mockito"))
   testImplementation(groovy.util.Eval.x(project, "x.dep.junit"))
